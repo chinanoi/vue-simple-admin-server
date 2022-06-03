@@ -1,6 +1,14 @@
 # vue-simple-admin-server
 Vue3通用后台管理系统对应服务端接口
 
+## pm2常用命令
+    1. pm2 list 查看所有已启动项目
+    2. pm2 start 启动
+    3. pm2 restart www  重启
+    4. pm2 stop www 停止
+    5. pm2 delete www 删除
+    6. pm2 start ./bin/www --watch自动重启
+
 ## 项目初始化
 
     1. npm install安装依赖
