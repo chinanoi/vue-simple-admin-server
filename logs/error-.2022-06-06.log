@@ -1,0 +1,57 @@
+[2022-06-06T21:29:15.309] [ERROR] error - ***连接数据库成功***
+[2022-06-06T22:34:25.022] [ERROR] error - TypeError: Cannot destructure property 'userName' of 'ctx.requestbody' as it is undefined.
+    at /Users/chenzhiying/职业相关项目/myProjects/nodeProjects/koa-admin/manager-server/routes/users.js:8:13
+    at dispatch (/Users/chenzhiying/职业相关项目/myProjects/nodeProjects/koa-admin/manager-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chenzhiying/职业相关项目/myProjects/nodeProjects/koa-admin/manager-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/chenzhiying/职业相关项目/myProjects/nodeProjects/koa-admin/manager-server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chenzhiying/职业相关项目/myProjects/nodeProjects/koa-admin/manager-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/chenzhiying/职业相关项目/myProjects/nodeProjects/koa-admin/manager-server/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/chenzhiying/职业相关项目/myProjects/nodeProjects/koa-admin/manager-server/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/chenzhiying/职业相关项目/myProjects/nodeProjects/koa-admin/manager-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/chenzhiying/职业相关项目/myProjects/nodeProjects/koa-admin/manager-server/app.js:31:11
+    at dispatch (/Users/chenzhiying/职业相关项目/myProjects/nodeProjects/koa-admin/manager-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at views (/Users/chenzhiying/职业相关项目/myProjects/nodeProjects/koa-admin/manager-server/node_modules/koa-views/src/index.js:91:12)
+    at dispatch (/Users/chenzhiying/职业相关项目/myProjects/nodeProjects/koa-admin/manager-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at serve (/Users/chenzhiying/职业相关项目/myProjects/nodeProjects/koa-admin/manager-server/node_modules/koa-static/index.js:53:15)
+[2022-06-06T22:36:39.446] [ERROR] error - TypeError: Cannot destructure property 'userName' of 'ctx.requestbody' as it is undefined.
+    at /Users/chenzhiying/职业相关项目/myProjects/nodeProjects/koa-admin/manager-server/routes/users.js:8:13
+    at dispatch (/Users/chenzhiying/职业相关项目/myProjects/nodeProjects/koa-admin/manager-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chenzhiying/职业相关项目/myProjects/nodeProjects/koa-admin/manager-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/chenzhiying/职业相关项目/myProjects/nodeProjects/koa-admin/manager-server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chenzhiying/职业相关项目/myProjects/nodeProjects/koa-admin/manager-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/chenzhiying/职业相关项目/myProjects/nodeProjects/koa-admin/manager-server/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/chenzhiying/职业相关项目/myProjects/nodeProjects/koa-admin/manager-server/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/chenzhiying/职业相关项目/myProjects/nodeProjects/koa-admin/manager-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/chenzhiying/职业相关项目/myProjects/nodeProjects/koa-admin/manager-server/app.js:31:11
+    at dispatch (/Users/chenzhiying/职业相关项目/myProjects/nodeProjects/koa-admin/manager-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at views (/Users/chenzhiying/职业相关项目/myProjects/nodeProjects/koa-admin/manager-server/node_modules/koa-views/src/index.js:91:12)
+    at dispatch (/Users/chenzhiying/职业相关项目/myProjects/nodeProjects/koa-admin/manager-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at serve (/Users/chenzhiying/职业相关项目/myProjects/nodeProjects/koa-admin/manager-server/node_modules/koa-static/index.js:53:15)
+[2022-06-06T22:38:05.420] [ERROR] error - TypeError: Cannot destructure property 'userName' of 'ctx.requestbody' as it is undefined.
+    at /Users/chenzhiying/职业相关项目/myProjects/nodeProjects/koa-admin/manager-server/routes/users.js:8:13
+    at dispatch (/Users/chenzhiying/职业相关项目/myProjects/nodeProjects/koa-admin/manager-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chenzhiying/职业相关项目/myProjects/nodeProjects/koa-admin/manager-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/chenzhiying/职业相关项目/myProjects/nodeProjects/koa-admin/manager-server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chenzhiying/职业相关项目/myProjects/nodeProjects/koa-admin/manager-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/chenzhiying/职业相关项目/myProjects/nodeProjects/koa-admin/manager-server/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/chenzhiying/职业相关项目/myProjects/nodeProjects/koa-admin/manager-server/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/chenzhiying/职业相关项目/myProjects/nodeProjects/koa-admin/manager-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/chenzhiying/职业相关项目/myProjects/nodeProjects/koa-admin/manager-server/app.js:31:11
+    at dispatch (/Users/chenzhiying/职业相关项目/myProjects/nodeProjects/koa-admin/manager-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at views (/Users/chenzhiying/职业相关项目/myProjects/nodeProjects/koa-admin/manager-server/node_modules/koa-views/src/index.js:91:12)
+    at dispatch (/Users/chenzhiying/职业相关项目/myProjects/nodeProjects/koa-admin/manager-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at serve (/Users/chenzhiying/职业相关项目/myProjects/nodeProjects/koa-admin/manager-server/node_modules/koa-static/index.js:53:15)
+    at dispatch (/Users/chenzhiying/职业相关项目/myProjects/nodeProjects/koa-admin/manager-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at logger (/Users/chenzhiying/职业相关项目/myProjects/nodeProjects/koa-admin/manager-server/node_modules/koa-logger/index.js:67:13)
+    at dispatch (/Users/chenzhiying/职业相关项目/myProjects/nodeProjects/koa-admin/manager-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+[2022-06-06T22:38:35.045] [ERROR] error - 账号或密码错误
+[2022-06-06T22:39:17.784] [ERROR] error - 账号或密码错误
+[2022-06-06T22:39:18.493] [ERROR] error - 账号或密码错误
+[2022-06-06T22:39:19.079] [ERROR] error - 账号或密码错误
+[2022-06-06T22:39:19.226] [ERROR] error - 账号或密码错误
+[2022-06-06T22:41:20.522] [ERROR] error - 账号或密码错误
+[2022-06-06T22:42:23.357] [ERROR] error - 账号或密码错误
+[2022-06-06T22:43:01.414] [ERROR] error - 账号或密码错误
+[2022-06-06T22:43:25.364] [ERROR] error - 账号或密码错误
+[2022-06-06T22:44:03.854] [ERROR] error - 账号或密码错误
+[2022-06-06T22:44:28.180] [ERROR] error - 账号或密码错误
